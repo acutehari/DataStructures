@@ -6,7 +6,7 @@ B=0
 E=len(arr)-1
 
 while B<=E:
-    mid=(B+E)//2
+    mid=(B+E)//2 
     if item==arr[mid]:
         loc=mid
         print(loc)
@@ -15,5 +15,4 @@ while B<=E:
         B=mid+1
     else:
         E=mid-1
-
 print(loc)
